@@ -14,6 +14,7 @@ nunjucks.configure(
 )
 
 server.use(bodyParser.urlencoded({ extended: true }))
+server.use('/content', express.static('content'))
 
 server.get('/', (req, res) => {
     fs.readdir('./views/posts')
