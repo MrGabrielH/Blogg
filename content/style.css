@@ -31,34 +31,29 @@ ul {
  overflow: auto;
  border: 1px solid #000;
  right: 0px;
- 
 }
-
 li {
 text-align: right;
-border: 1px solid #000;
+border-top: #000;
 }
-
 li a {
  display: block;
  padding: 8px 15px;
  color: #000;
  text-decoration: none;
 }
-
 li:last-child {
  border-bottom: none;
 }
-
 li a.active {
 background-color: #8181f1;
 color: white;
 }
-
 li a:hover:not(.active) {
  background-color: red;
  color: white;
 }
+
 .page {
   margin-right: 20%; 
   padding: 1px; 
