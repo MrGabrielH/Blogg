@@ -67,6 +67,6 @@ li a:hover:not(.active) {
 .posts {
   background-color: #fff; 
   color: #4f4f4f;
-  font-size: 20pt;
+  font-size: 15px;
   border-radius: 15px;
 }
