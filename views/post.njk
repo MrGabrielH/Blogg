@@ -8,13 +8,28 @@
     <title>Postpage</title>
 </head>
 <body>
-        <h1>Create post!</h1>
-        <a href="/">Back!</a>
+    
+    <ul>
+    <li><a class="active" href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="/post">Create post!</a></li>
+    </ul>
+
+    <div class="page"> 
+
+    <h1 title="Create post!">Create post!</h1>
+    
+    <hr>
+
+    <a href="/">Back!</a>
         
     <form action="/post" method="post">
         <label for="post-text">Write your post here:</label>
         <textarea name="post-text" cols="30" rows="10"></textarea>
         <input type="submit" value="Send post!"> 
     </form>
+
+    </div>
+    
 </body>
 </html>
