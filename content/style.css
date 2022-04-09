@@ -69,7 +69,4 @@ li a:hover:not(.active) {
   color: #4f4f4f;
   font-size: 20pt;
   border-radius: 15px;
-  position: relative;
-  padding: 190px 595px;
-  text-align: center;
 }
