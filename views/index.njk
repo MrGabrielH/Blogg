@@ -28,7 +28,7 @@
 
     <a href="/post">Create post</a>
     {% for post in posts %}
-        <div style="border: 3px solid red">
+        <div class="posts">
             {% include "./posts/" + post %}
         </div>
     {% endfor %}
